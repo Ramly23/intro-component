@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+    <section>
+      <div class="row">
+        <div class="col">
+          <div class="text-wrap">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+              but understanding how developers think is invaluable. </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="second-wrap">
+            <div class="purple-container flex-center">
+              <h2>Try it free 7 days <span>then $20/mo. thereafter</span></h2>
+            </div>
+            <div class="white-container">
+              <form>
+                <input id = 'firstname' class = 'input' style = 'margin-top: 0;' type = 'text' placeholder = 'First Name'>
+                <div class="error">
+                  <img class = 'first-error' src="images/icon-error.svg" alt="Error">
+                </div>
+                <div class="wrap flex-end">
+                  <h4 class = 'first-h4'>First Name cannot be empty</h4>
+                </div>
+                <input id = 'lastname' class = 'input' type = 'text' placeholder = 'Last Name'>
+                <div class="error">
+                  <img class = 'second-error' src="images/icon-error.svg" alt="Error">
+                </div>
+                <div class="wrap flex-end">
+                  <h4 class = 'second-h4'>Last Name cannot be empty</h4>
+                </div>
+                <input id = 'email' class = 'input' type = 'email' placeholder = 'Email Address'>
+                <div class="error">
+                  <img class = 'third-error' src="images/icon-error.svg" alt="Error">
+                </div>
+                <div class="wrap flex-end">
+                  <h4 class = 'empty'>Email cannot be empty</h4>
+                  <h4 class = 'third-h4'>Looks like this is not an email</h4>
+                </div>
+                <input id = 'password' class = 'input' type = 'password' placeholder = 'Password'>
+                <div class="error">
+                  <img class = 'fourth-error' src="images/icon-error.svg" alt="Error">
+                </div>
+                <div class="wrap flex-end">
+                  <h4 class = 'fourth-h4'>Password cannot be empty</h4>
+                </div>
+                <div class="flex-center">
+                  <input class = 'button' type = 'submit' value = 'Claim your free trial'>
+                </div>
+                <div class="flex-center">
+                  <h3>By clicking the button, you are agreeing to our <span>Terms and Services</span></h3>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Ramly</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script src = 'script.js'></script>
+</body>
+</html>
