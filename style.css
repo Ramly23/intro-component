@@ -354,4 +354,26 @@ main {
         left: 50%;
         transform: translate(-50%, 50%);
     }
+
+    .error {
+        position: relative;
+        margin-left: 85%;
+    }
+
+    .first-error {
+       left: 0;
+    }
+    
+    .second-error {
+        left: 0;
+    }
+    
+    .third-error {
+       left: 0;
+    }
+    
+    .fourth-error {
+        left: 0;
+    }
+
 }
